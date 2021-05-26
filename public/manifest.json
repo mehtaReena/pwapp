@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Weather App",
+  "name": "Quick update",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,6 +18,26 @@
       "sizes": "512x512"
     }
   ],
+
+  "shortcuts": [
+    {
+      "name": "How's weather today?",
+      "short_name": "Today",
+      "description": "View weather information for today",
+      "url": "/today?source=pwa",
+      "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "How's weather tomorrow?",
+      "short_name": "Tomorrow",
+      "description": "View weather information for tomorrow",
+      "url": "/tomorrow?source=pwa",
+      "icons": [{ "src": "/images/sunny.webp", "sizes": "192x192" }]
+    }
+  ],
+
+
+
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
